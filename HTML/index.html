@@ -5,6 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
+  <style>
+    img {
+      height: 200px;
+      width: 200px;
+      object-fit: cover;
+    }
+    video {
+      width: 400px;
+    }
+    ul {
+      list-style-type: none;
+    }
+    table,
+    td,
+    th {
+      border: 1px solid grey;
+      border-collapse: collapse;
+      padding: 5px;
+    }
+    tfoot {
+      text-align: left;
+    }
+    .product {
+      background-color: gold;
+      width: 300px;
+    }
+  </style>
   <body>
     <p>I love to learn <em>HTML!</em></p>
 
@@ -16,29 +43,96 @@
     <h2>HTML</h2>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ratione
-      unde omnis itaque corporis officia, dolore impedit voluptates voluptatibus
-      quaerat animi dolor perferendis, facilis expedita! Ducimus mollitia illo
-      consectetur fugit. Lorem ipsum dolor sit amet consectetur adipisicing
-      elit. Eligendi ratione unde omnis itaque corporis officia, dolore impedit
-      voluptates voluptatibus quaerat animi dolor perferendis, facilis expedita!
-      Ducimus mollitia illo consectetur fugit. Lorem ipsum dolor sit amet
-      consectetur adipisicing elit. Eligendi ratione unde omnis itaque corporis
-      officia, dolore impedit voluptates voluptatibus quaerat animi dolor
-      perferendis, facilis expedita! Ducimus mollitia illo consectetur fugit.
+      unde omnptatibus quaerat animi dolor perferendis, facilis expedita!
+      Ducimus mollitia illo consectetur fugit.
     </p>
     <h2 id="section-css">CSS</h2>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio inventore
       facere debitis, error neque, quae maxime nihil sit voluptatem sunt quaerat
       provident eveniet illo tempora perspiciatis maiores laudantium assumenda
-      omnis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio
-      inventore facere debitis, error neque, quae maxime nihil sit voluptatem
-      sunt quaerat provident eveniet illo tempora perspiciatis maiores
-      laudantium assumenda omnis.Lorem ipsum dolor sit amet, consectetur
-      adipisicing elit. Optio inventore facere debitis, error neque, quae maxime
-      nihil sit voluptatem sunt quaerat provident eveniet illo tempora
-      perspiciatis maiores laudantium assumenda omnis.
+      omnis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio inve
     </p>
     <a href="#">Jump to Top</a>
+    <img src="images/coffee.jpg" alt="A coffee on the table" />
+    <video src="video/ocean.mp4" controls autoplay loop>
+      Your browser doesn't support videos.
+    </video>
+    <ul>
+      <li>About Me</li>
+      <li>
+        Courses
+        <ul>
+          <li>HTML</li>
+          <li>JS</li>
+          <li>Git</li>
+        </ul>
+      </li>
+      <li>Subscibe</li>
+      <li>Contact Me</li>
+    </ul>
+
+    <ol>
+      <li>Preheat the oven.</li>
+      <li>Place the ingredientts on the oven</li>
+      <li>Done</li>
+    </ol>
+
+    <dl>
+      <dt>HTML</dt>
+      <dd>Hypertext Markup Language</dd>
+      <dt>CSS</dt>
+      <dd>Cascading Stylesheets</dd>
+    </dl>
+
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">Expense</th>
+        </tr>
+        <tr>
+          <th>Category</th>
+          <th>Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Marketing</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>Accounting</td>
+          <td>$200</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Total</th>
+          <th>$500</th>
+        </tr>
+      </tfoot>
+    </table>
+
+    <div class="product">
+      <p>Lorem ipsum dolor sit amet.</p>
+      <a href="#">Link</a>
+    </div>
+    <div class="product">
+      <p>Lorem ipsum dolor sit amet.</p>
+      <a href="#">Link</a>
+    </div>
+
+    <article class="article">
+      <h1>Heading</h1>
+      <time datatime="2021-01-01 17:00">January 1, 2021</time>
+      <p>
+        <mark>ipsum</mark> dolor sit amet consectetur adipisicing elit.
+        Officiis, incidunt.
+      </p>
+    </article>
+    <figure>
+      <img src="" alt="" />
+      figurecaption
+    </figure>
   </body>
 </html>
