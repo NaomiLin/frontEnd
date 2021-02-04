@@ -1,0 +1,6 @@
+p {
+  height: 300px;
+  width: 300px;
+  background: tomato;
+  box-shadow: 10px 10px lightgrey;
+}
